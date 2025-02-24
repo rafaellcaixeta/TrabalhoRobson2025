@@ -6,7 +6,7 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            double vendaMediaMensal;
+            int vendaMediaMensal;
             double precoAtual = 30;
             double novoPreco;
 
@@ -16,9 +16,9 @@ namespace MyApp
             if (vendaMediaMensal < 500)
             {
                 novoPreco = precoAtual * 1.10;
-                Console.WriteLine("o novo valor é:" + novoPreco);
+                Console.WriteLine("O novo valor é:" + novoPreco);
             }
-            else if (vendaMediaMensal <= 500)
+            else
             {
                 novoPreco = precoAtual * 0.80;
                 Console.WriteLine("O novo valor é:" + novoPreco);
